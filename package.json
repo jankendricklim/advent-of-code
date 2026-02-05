@@ -1,0 +1,20 @@
+{
+  "name": "advent-of-code",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.17.23",
+    "lodash": "^4.17.23",
+    "save-dev": "^0.0.1-security"
+  }
+}
